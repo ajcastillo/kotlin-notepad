@@ -3,9 +3,9 @@ package com.udacity.notepad.data
 import java.util.Date
 
 data class Note (
-        val id: Int=-1,
-        val text:String?=null,
-        val isPinned: Boolean=false,
-        val createAt:Date=Date(),
-        val updateAt: Date?
+        var id: Int=-1,
+        var text:String?=null,
+        var isPinned: Boolean=false,
+        var createdAt:Date=Date(),
+        var updatedAt: Date? = null
 )
